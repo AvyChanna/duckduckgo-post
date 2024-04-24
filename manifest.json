@@ -1,0 +1,30 @@
+{
+	"manifest_version": 2,
+	"name": "DuckDuckGo.Post",
+	"short_name": "DDG.POST",
+	"description": "Use POST requests for DuckDUckGo searches",
+	"version": "1.0.0",
+	"homepage_url": "https://github.com/AvyChanna/duckduckgo-post",
+	"developer": {
+		"name": "AvyChanna",
+		"url": "https://github.com/AvyChanna"
+	},
+	"icons": {
+		"16": "icons/icon_16.png",
+		"19": "icons/icon_19.png",
+		"48": "icons/icon_48.png",
+		"76": "icons/icon_76.png",
+		"128": "icons/icon_128.png"
+	},
+	"chrome_settings_overrides": {
+		"search_provider": {
+			"name": "DuckDuckGo.Post",
+			"search_url": "https://duckduckgo.com/",
+			"search_url_post_params": "q={searchTerms}",
+			"keyword": "duckduckgo.com",
+			"favicon_url": "https://duckduckgo.com/favicon.ico",
+			"is_default": true,
+			"encoding": "UTF-8"
+		}
+	}
+}
